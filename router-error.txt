@@ -1,0 +1,28 @@
+ I don't know why I am getting this error and I can't find an answer for it anywhere. 
+ I have uninstalled the react-router-dom package and reinstalled it, but it continues to tell me that the switch 
+ module is not exported from react-router-dom. Here's my code. 
+Error I'm getting: Attempted import error: 'Switch' is not exported from 'react-router-dom'.  
+I also faced the same problem, and I search towards the internet so much but
+ I didn't get any answer according to my question. 
+
+    So I uninstall the version 6 of react-router-dom
+----------(npm uninstall react-router-dom)----------
+
+    And installed version 5.2.0 of react-router-dom
+----------(npm install react-router-dom@5.2.0)----------
+
+for react Infinity scrolling module
+-----------(npm i react-infinite-scroll-component)-------
+
+for react top loading bar
+---------(npm i react-top-loading-bar)---------
+
+
+
+new file is
+ ------------(.env.local)-------------
+ and this already added in .gitignore file ---
+ thats use in this file  if the module name is starting with REACT_APP_NEWS_API
+  then we will use them in our project
+  ------(REACT_APP_NEWS_API)------
+  
